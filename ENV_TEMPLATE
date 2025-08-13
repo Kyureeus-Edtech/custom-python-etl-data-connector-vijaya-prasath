@@ -1,0 +1,4 @@
+WEATHER_API_KEY=<your_api_key>
+MONGO_URL=mongodb://localhost:27017/
+DB_NAME=<db_name>
+LOG_LEVEL=INFO
