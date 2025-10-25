@@ -1,0 +1,306 @@
+# ========================================
+# Environment Variables - NEVER COMMIT
+# ========================================
+.env
+.env.local
+.env.*.local
+
+# ========================================
+# Python
+# ========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# ========================================
+# Virtual Environments
+# ========================================
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# ========================================
+# IDEs and Editors
+# ========================================
+# VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+# ========================================
+# Operating System Files
+# ========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ========================================
+# Database Files
+# ========================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# MongoDB
+mongod.lock
+*.bson
+
+# ========================================
+# Logs and Temporary Files
+# ========================================
+*.log
+logs/
+*.tmp
+*.temp
+temp/
+tmp/
+
+# ========================================
+# Project Specific
+# ========================================
+# Downloaded data files (if you want to exclude them)
+# *.json
+# data/
+
+# Backup files
+*.bak
+*.backup
+*_backup
+
+# Test files
+test_*.py
+*_test.py
+
+# Documentation builds
+docs/_build/
+site/
+
+# ========================================
+# Security and Credentials
+# ========================================
+# API keys and secrets
+secrets.json
+credentials.json
+*.pem
+*.key
+*.cert
+
+# SSH keys
+id_rsa
+id_rsa.pub
+known_hosts
+
+# ========================================
+# Package Manager Files
+# ========================================
+# npm (if using Node.js tools)
+node_modules/
+package-lock.json
+
+# Yarn
+yarn.lock
+.yarn/
+
+# ========================================
+# Miscellaneous
+# ========================================
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packaging files
+*.dmg
+*.iso
+*.jar
+*.war
+*.nar
+*.ear
+
+# IDE generated files
+.classpath
+.factorypath
+.project
+.settings
+
+# Mac Finder
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# ========================================
+# Custom Exclusions
+# ========================================
+# Add any project-specific files to ignore below
+# Example: my_local_config.py
